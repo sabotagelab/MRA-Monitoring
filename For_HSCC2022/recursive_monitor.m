@@ -28,7 +28,7 @@ if strcmp(formula{1}, 'G')
     out=all(sat);
     
     
-elseif strcmp(formula{1}, 'E') 
+elseif strcmp(formula{1}, 'F') 
     %Create a list of bools
     sat=zeros(1,formula{2}(2)-formula{2}(1)+1);
     

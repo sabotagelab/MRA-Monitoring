@@ -37,7 +37,7 @@ function out=MRA_DT_STL(formula, V, W, state_space)
 %Globally and Eventually  {'Op', interval as [a,b], formula}
 %Globally and Eventually are not included in the published work, but they
 %have been added here
-if strcmp(formula{1}, 'G') || strcmp(formula{1}, 'E')
+if strcmp(formula{1}, 'G') || strcmp(formula{1}, 'F')
 
     ext=MRA_DT_STL(formula{3}, V, W, state_space);     
     out={formula{1},formula{2},ext};

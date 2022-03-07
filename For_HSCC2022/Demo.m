@@ -1,5 +1,5 @@
 %% This is a demo file using MRA_DT_STL. 
-%It is recommended that only one section is run at a time, so reduce output
+%It is recommended that only one section is run at a time, to reduce output
 clear all
 %% First create formula. 
 
@@ -13,7 +13,7 @@ q={'q','<',-0.5};
 formula1=p;
 
 %Eventually q
-formula2={'E',[0,7],p};
+formula2={'F',[0,7],p};
 
 %Globaly Eventually q
 formula3={'G',[0,5],q};
